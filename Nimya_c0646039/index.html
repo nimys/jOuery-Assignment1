@@ -1,0 +1,88 @@
+
+   <!--
+------------------------------------------
+	Title:  Lab Assignment 1
+	Author: Nimya Gurusivagnanam
+	Date: May 12,2015
+------------------------------------------ 
+   -->
+<!DOCTYPE html>
+<html>
+
+   <head>
+ 
+      <meta charset="UTF-8" />
+      <title>Customer Survey</title>
+      <script src="formsubmit.js"></script>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+
+   </head>
+	
+	
+   <body>
+      <header>
+        	<h1>Customer's Experience Survey</h1>
+      </header>
+	  
+	   <form id="survey" name="survey" action="submit.html" method="post">
+		
+		<fieldset id="experience">
+		<legend>Restaurant Experience</legend>
+		
+		<label>Date of Visit </label>
+		<input type="date" name="visit_date" require>
+		
+		<label> Order Type</label>
+		<select for="order_type">
+			<option>Dine In</option>
+			<option>Take Out</option>
+			<option>Delivery</option>		
+			
+		</select><br/>
+			<br/>
+			
+		
+		
+		
+		<label>Was your service friendly?</label>
+
+		<fieldset  class="optionGroup">
+		<label>Yes<input type="radio" name="service"></label>
+		<label>No<input type="radio" name="service"></label>
+		</fieldset>
+		
+		
+		
+		<label>Was your food good?</label>
+		<fieldset  class="optionGroup">
+		<label>Yes<input type="radio" name="food"></label>
+		<label>No<input type="radio" name="food"></label>
+		
+		</fieldset>
+		
+		
+		<label>Comments:</label>
+		<textarea >
+		</textarea>
+		
+		
+		
+		</fieldset>
+		<fieldset id="location">
+		<legend>Restaurant Location</legend>
+		<label>Postal Code</label>
+		<input type="text" placeholder="A1A 1A1" pattern="^[ABCEGHJKLMNPRSTVXY]{1}\d{1}[A-Z]{1} *\d{1}[A-Z]{1}\d{1}$" name="postal_code" require><br />
+		<label>Province</label>
+		<input type="text" name="province" placeholder="ON"  maxlength="2" require>
+		</fieldset>
+		
+		<p><input type="submit" name="submit" value="Submit Survey">
+		<input type="reset" name="cancel" value="Cancel"></p>
+      
+	  </form>
+
+
+
+   </body>
+
+</html>

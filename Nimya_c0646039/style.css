@@ -1,0 +1,113 @@
+ 
+   /*
+------------------------------------------
+	Title: Lab Assignment #1 - style.css
+	Author: Nimya Gurusivagnanam
+	Date: May 12,2015
+------------------------------------------ 
+   */
+   body{
+   margin:50px 0px;
+   }
+h1 {
+	color: rgb(233, 69, 0);
+	font-family: Georgia, Times, serif;
+	text-align:center;
+}
+fieldset{
+border:1px solid rgb(233,69,0);
+float:left;
+width:46%;
+margin-left:2.5%;
+margin-right:0px;
+margin-bottom:10px;
+margin-top:10px;
+background-color:rgb(255, 224, 178);
+}
+fieldset legend{
+background-color:rgb(233,69,0);
+color:white;
+padding-top:3px;
+padding-bottom:3px;
+text-indent:5px;
+width:100%;
+}
+label{
+display:block;
+margin-left:clear;
+float:left;
+font-size:0.9em;
+margin-top:7px;
+margin-bottom:7px;
+margin-right:0px;
+margin-left:0px;
+width:40%;
+
+}
+input{
+float:left;
+font-size:0.9em;
+width:50%;
+margin-top:7px;
+margin-bottom:7px;
+margin-right:0px;
+margin-left:0px;
+}
+
+textarea{
+float:left;
+font-size:0.9em;
+height:150px;
+width:50%;
+margin-top:10px;
+margin-bottom:10px;
+
+}
+form{
+margin-left:500px;
+}
+ .optionGroup{
+	border-width:0px;
+	
+} 
+
+.optionGroup label{
+display:inline;
+float:none;
+margin-right:3px;
+width:30px;
+
+}
+.optionGroup input{
+display:inline;
+float:none;
+margin:0px 20px 0px 0px;
+width:20px;
+
+}
+input[type="submit"]{
+	float:left;
+	clear:left;
+	display:inline;
+	height:20px;
+	width:49%;
+	  margin-left: 1.7em;
+}
+input[type="reset"]{
+	float:left;
+	clear:left;
+	display:inline;
+	height:20px;
+	width:49%;
+	  margin-left: 1.7em;
+}
+
+
+
+
+
+
+
+
+
+
